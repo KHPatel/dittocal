@@ -6,6 +6,27 @@ body {color:black;padding:0;}
 .calenDate .currDate {font-size:200%;padding:0 3%;box-sizing:border-box;-moz-box-sizing:border-box;}
 .currSummary {display:inline-block;font-size:60px;}
 .currSummary h1 {font-size:100%;}
-.currSummary h3, .currSummary p {font-size:45%;}
+.currSummary h3, .currSummary p {font-size:40%;}
 
-.btn-primary {background:0;}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled]
+{background-color:#e6e6e6;
+color:black;}
+.btn {background-image:none;border:0;background-color:white;box-shadow:none;-webkit-box-shadow:none;}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {background-color:white;color:black;}
+.btn-warning {background-image:none;background-color:black;color:white;border:2px solid black;}
+.btn-primary {background-image:none;background-color:white;border:0;color:black;}
+.page-header {border-bottom:0px;padding-bottom:0;margin:20px 0;}
+.btn-primary .icon-play, .btn .icon-stop {display:block;}
+button[data-calendar-nav="prev"] .icon-play { 
+	-webkit-transform: rotate(180deg);
+  	-moz-transform: rotate(180deg);
+  	-ms-transform: rotate(180deg);
+  	-o-transform:  rotate(180deg);
+  	transform:  rotate(180deg);
+  }
+h1,h2,h3 {line-height:30px;}
