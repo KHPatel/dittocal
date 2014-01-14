@@ -28,8 +28,8 @@
 	<div class="hero-unit">
 		<div class="container">
 			<aside class="calenDate">
-				<h1 class="currMonth">jan</h1>
-				<h1 class="currDate">21</h1>
+				<h1 class="currMonth"><?php echo date('M');?></h1>
+				<h1 class="currDate"><?php echo date('M');?></h1>
 			</aside>
 			<div class="currSummary">
 				<h1>Today is Groundhog Day.</h1>
