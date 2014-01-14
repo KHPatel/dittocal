@@ -1,0 +1,11 @@
+body {color:black;padding:0;}
+
+.hero-unit {background-color:#f2ba49;border-radius:0px;}
+.calenDate {border:1px solid black;text-align: center;font-size:60px;display:inline-block;width:auto;margin-right:2%;}
+.calenDate .currMonth {text-transform: uppercase;font-size:100%;margin-top:0;background-color:black;color:#f2ba49;padding:0 3%;box-sizing:border-box;-moz-box-sizing:border-box;}
+.calenDate .currDate {font-size:200%;padding:0 3%;box-sizing:border-box;-moz-box-sizing:border-box;}
+.currSummary {display:inline-block;font-size:60px;}
+.currSummary h1 {font-size:100%;}
+.currSummary h3, .currSummary p {font-size:45%;}
+
+.btn-primary {background:0;}
