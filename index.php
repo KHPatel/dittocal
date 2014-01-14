@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Twitter Bootstrap jQuery Calendar component</title>
+	<title>Holiday Calendar</title>
 
 	<meta name="description" content="Full view calendar component for twitter bootstrap with year, month, week, day views.">
 	<meta name="keywords" content="jQuery,Bootstrap,Calendar,HTML,CSS,JavaScript,responsive,month,week,year,day">
@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="components/bootstrap2/css/bootstrap.css">
 	<link rel="stylesheet" href="components/bootstrap2/css/bootstrap-responsive.css">
 	<link rel="stylesheet" href="css/calendar.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<style type="text/css">
 		.btn-twitter {
@@ -24,33 +25,35 @@
 	</style>
 </head>
 <body>
-<div class="container">
 	<div class="hero-unit">
-		<h1><?php echo date('Mj');?></h1>
-
-		<p>Bootstrap based full view calendar. Template based.</p>
-
-		<a class="btn btn-inverse" href="https://github.com/Serhioromano/bootstrap-calendar">Fork on GitHub</a>
-		<a class="btn" href="index-bs3.html">Use bootstrap 3</a>
-		<a href="https://twitter.com/serhioromano" class="btn btn-twitter" data-show-count="false" data-size="large">Follow @serhioromano</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-		</script>
-	</div>
-
+		<div class="container">
+			<aside class="calenDate">
+				<h1 class="currMonth"><?php echo date('M');?></h1>
+				<h1 class="currDate"><?php echo date('j'); ?></h1>
+			</aside>
+			<div class="currSummary">
+				<h1>Today is .</h1>
+				<h3>This week is Save the Whales Week.</h3>
+				<h3>This month is Black History Month.</h3>
+				<p>Celebrate Groundhog Day with a free greeting!</p>
+			</div>
+		</div>
+	</div>	
+	<div class="container">
 	<div class="page-header">
 
 		<div class="pull-right form-inline">
 			<div class="btn-group">
 				<button class="btn btn-primary" data-calendar-nav="prev"><< Prev</button>
-				<button class="btn" data-calendar-nav="today">Today</button>
+				<button class="btn" data-calendar-nav="today">Current</button>
 				<button class="btn btn-primary" data-calendar-nav="next">Next >></button>
 			</div>
-			<div class="btn-group">
+<!-- 			<div class="btn-group">
 				<button class="btn btn-warning" data-calendar-view="year">Year</button>
 				<button class="btn btn-warning active" data-calendar-view="month">Month</button>
 				<button class="btn btn-warning" data-calendar-view="week">Week</button>
 				<button class="btn btn-warning" data-calendar-view="day">Day</button>
-			</div>
+			</div> -->
 		</div>
 
 		<h3></h3>
@@ -62,7 +65,7 @@
 			<div id="calendar"></div>
 		</div>
 		<div class="span3">
-			<div class="row-fluid">
+<!-- 			<div class="row-fluid">
 				<select id="first_day" class="span12">
 					<option value="" selected="selected">First day of week language-dependant</option>
 					<option value="2">First day of week is Sunday</option>
@@ -84,16 +87,16 @@
 				<label class="checkbox">
 					<input type="checkbox" value="#events-modal" id="events-in-modal"> Open events in modal window
 				</label>
-			</div>
+			</div>-->
 
-			<h4>Events</h4>
+			<h3>Events</h3>
 			<small>This list is populated with events dynamically</small>
 			<ul id="eventlist" class="nav nav-list"></ul>
 		</div>
 	</div>
 
 	<div class="clearfix"></div>
-	<br><br>
+<!-- 	<br><br>
 	<a href="https://github.com/Serhioromano/bootstrap-calendar/issues" class="btn btn-block btn-info">
 		<center>
 			<span class="lead">
@@ -101,8 +104,8 @@
 			</span>
 			<small>Please do not post your "How to ..." questions in comments. use GitHub issue tracker.</small>
 		</center>
-	</a>
-	<br><br>
+	</a>-->
+	<br><br> 
 
 	<div id="disqus_thread"></div>
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
