@@ -56,6 +56,38 @@
 			"class": "event-important",
 			"start": "1364320800000",
 			"end":   "1364407286400"
+		},		
+		{
+			"id": "293",
+			"title": "Event 3",
+			"url": "http://www.example.com/",
+			"class": "event-important",
+			"start": "1364320800000",
+			"end":   "1364407286400"
+		},		
+		{
+			"id": "294",
+			"title": "Event 3",
+			"url": "http://www.example.com/",
+			"class": "event-important",
+			"start": "1364320800000",
+			"end":   "1364407286400"
+		},		
+		{
+			"id": "296",
+			"title": "Event 3",
+			"url": "http://www.example.com/",
+			"class": "event-important",
+			"start": "1364320800000",
+			"end":   "1364407286400"
+		},		
+		{
+			"id": "297",
+			"title": "Event 3",
+			"url": "http://www.example.com/",
+			"class": "event-important",
+			"start": "1364320800000",
+			"end":   "1364407286400"
 		}
 	]
 }
