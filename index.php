@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="components/bootstrap2/css/bootstrap-responsive.css">
 	<link rel="stylesheet" href="css/calendar.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fontello.css">
 
 	<style type="text/css">
 		.btn-twitter {
@@ -44,20 +45,20 @@
 
 		<div class="pull-right form-inline">
 			<div class="btn-group">
-				<button class="btn btn-primary" data-calendar-nav="prev"><< Prev</button>
-				<button class="btn" data-calendar-nav="today">Current</button>
-				<button class="btn btn-primary" data-calendar-nav="next">Next >></button>
+				<button class="btn btn-primary" data-calendar-nav="prev"><span class="icon-play"></span>Prev</button>
+				<button class="btn" data-calendar-nav="today"><span class="icon-stop"></span>Current</button>
+				<button class="btn btn-primary" data-calendar-nav="next"><span class="icon-play"></span>Next</button>
 			</div>
-<!-- 			<div class="btn-group">
+			<div class="btn-group">
 				<button class="btn btn-warning" data-calendar-view="year">Year</button>
 				<button class="btn btn-warning active" data-calendar-view="month">Month</button>
 				<button class="btn btn-warning" data-calendar-view="week">Week</button>
 				<button class="btn btn-warning" data-calendar-view="day">Day</button>
-			</div> -->
+			</div>
 		</div>
 
 		<h3></h3>
-		<small>To see example with events navigate to march 2013</small>
+		<!-- <small>To see example with events navigate to march 2013</small> -->
 	</div>
 
 	<div class="row">
