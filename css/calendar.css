@@ -6,7 +6,6 @@
 .cal-row-fluid {
   width: 100%;
   *zoom: 1;
-  border-bottom:3px solid black;
 }
 .cal-row-fluid:before,
 .cal-row-fluid:after {
@@ -115,6 +114,7 @@
 .cal-row-fluid [class*="cal-cell"].pull-right {
   float: right;
 }
+.cal-row-head {border-bottom:3px solid black;}
 .cal-row-head [class*="cal-cell"]:first-child,
 .cal-row-head [class*="cal-cell"] {
   min-height: auto;
@@ -295,10 +295,12 @@
 [class*="cal-cell"]:hover {
   background-color: #ededed;
 }
-.cal-year-box [class*="span"],
-.cal-month-box [class*="cal-cell"] {
+.cal-year-box [class*="span"] {
   min-height: 100px;
-  /*border-right: 1px solid #e1e1e1;*/
+  border-right: 1px solid #e1e1e1;
+}
+.cal-month-box [class*="cal-cell"] {
+  min-height:100px;
 }
 .cal-year-box [class*="span"] {
   min-height: 60px;
