@@ -20,7 +20,7 @@ color:black;}
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {background-color:white;color:black;}
 .btn-warning {background-image:none;background-color:black;color:white;border:2px solid black;}
 .btn-primary {background-image:none;background-color:white;border:0;color:black;}
-.page-header {border-bottom:0px;padding-bottom:0;margin:20px 0;}
+.page-header {border-bottom:0px;padding-bottom:0;margin:0;}
 .btn-primary .icon-play, .btn .icon-stop {display:block;}
 button[data-calendar-nav="prev"] .icon-play { 
 	-webkit-transform: rotate(180deg);
@@ -30,3 +30,4 @@ button[data-calendar-nav="prev"] .icon-play {
   	transform:  rotate(180deg);
   }
 h1,h2,h3 {line-height:30px;}
+.form-inline {text-align:right;}
